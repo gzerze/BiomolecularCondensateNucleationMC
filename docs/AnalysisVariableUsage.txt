@@ -1,0 +1,18 @@
+----------------------------------------------------------
+radialdistribution
+Usage: radialdistribution moltype1  molatom1 moltype2 molatom2 binSize nBins outputfileName
+
+
+----------------------------------------------------------
+pairdist 
+Usage: pairdist moltype1 mol1 molatom1 moltype2, mol2, molatom2
+
+---------------------------------------------------------
+q6
+Usage: q6 distcutoff
+
+------------------------------------------------------
+radialdensity
+Usage: radialdensity moltype1, binSize, nBins, outputfileName
+
+----------------------------------------------------------

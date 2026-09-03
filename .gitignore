@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# Build/debug output
+objects/
+generalNucleation
+generalNucleation_*
+generalNucleation.dSYM/
+*.o
+*.mod
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Trajectory-analysis utilities maintained separately
+TrajectoryCodes/
+
+# Legacy / backup source files not used by the current build
+src/AnalysisFunctions_Old.f90
+src/ClusterCriteria_Distance_Backup.f90
+src/ClusterCriteria_Energy_New.f90
+src/Constrain_Main.f90
+src/Legacy_InputFunctions.f90
+src/Main_parallel.f90
+src/Main_serial.f90
+src/Random_OldStyle.f90
+src/ReadInput.f90
+src/Simple_IntraMoves.f90
+
+src/CBMC_Functions/CBMC_Init_Old.f90
+
+src/SwapFunctions/AVBMC_EBias_Backup.f90
+src/SwapFunctions/AVBMC_EBias.f90
+src/SwapFunctions/AVBMC_Uniform.f90
+src/SwapFunctions/AVBMC_ChargeNeutral.f90
+src/SwapFunctions/AVBMC_DistGenFunctions.f90
+
+src/UmbrellaSampling_parallel.f90
+src/UmbrellaSampling_serial.f90
+src/UmbrellaSampling_Version2_parallel.f90
+src/UmbrellaSampling_Version2_serial.f90
+
+src/WHAM_Version2_parallel.f90
+src/WHAM_Version2_serial.f90

@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+=========================================
+    
+=========================================
+
+ -- SetVar --
+
+ Format = setvar <variable name> <parameters>
+
+This keyword is used to define simulation parameters such as the number of molecule types, thermodynamic paramters, etc. that will determine the nature of the simulation. 
+
+
+
+
